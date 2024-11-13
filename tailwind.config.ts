@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brown: "#A29875",
+      },
+      fontFamily: {
+        'libre-bodoni': ['"Libre Bodoni"', 'serif'],
       },
     },
   },

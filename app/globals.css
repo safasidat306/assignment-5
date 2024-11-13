@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rye&display=swap');
+
+.nav{
+    background-color:#A29875;
+font-size: 75px;
+font-weight: 400;
+line-height: 93.75px;
+text-align: left;
+color:  #FFFFFF;
+font-family: "Rye", serif;
+font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.nav{
+    font-family: "Rye", serif;
+font-style: normal;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+  
